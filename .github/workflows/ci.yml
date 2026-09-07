@@ -16,7 +16,7 @@ jobs:
       - name: Lint Dockerfile
         uses: hadolint/hadolint-action@v3.1.0
         with:
-          dockerfile: app-service/Dockerfile
+          dockerfile: Dockerfile
       - run: make build && make test
 
   deploy-dev:
