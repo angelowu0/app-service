@@ -19,7 +19,7 @@ jobs:
     name: "Deploy to dev"
     needs: build-test
     if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/dev' }}
-    uses: org/gh-sharedrepo/.github/workflows/deploy.yml@main
+    uses: angelowu0/gh-sharedrepo-example/.github/workflows/deploy.yml@main
     with:
       environment: dev
     secrets:
@@ -29,7 +29,7 @@ jobs:
     name: "Deploy to qa"
     needs: [build-test, deploy-dev]
     if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/qa' }}
-    uses: org/gh-sharedrepo/.github/workflows/deploy.yml@main
+    uses: angelowu0/gh-sharedrepo-example/.github/workflows/deploy.yml@main
     with:
       environment: qa
     secrets:
@@ -39,7 +39,7 @@ jobs:
     name: "Deploy to uat"
     needs: [build-test, deploy-qa]
     if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/uat' }}
-    uses: org/gh-sharedrepo/.github/workflows/deploy.yml@main
+    uses: angelowu0/gh-sharedrepo-example/.github/workflows/deploy.yml@main
     with:
       environment: uat
     secrets:
@@ -49,7 +49,7 @@ jobs:
     name: "Deploy to preprod"
     needs: [build-test, deploy-uat]
     if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/preprod' }}
-    uses: org/gh-sharedrepo/.github/workflows/deploy.yml@main
+    uses: angelowu0/gh-sharedrepo-example/.github/workflows/deploy.yml@main
     with:
       environment: preprod
     secrets:
@@ -59,7 +59,7 @@ jobs:
     name: "Deploy to prod"
     needs: [build-test, deploy-preprod]
     if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
-    uses: org/gh-sharedrepo/.github/workflows/deploy.yml@main
+    uses: angelowu0/gh-sharedrepo-example/.github/workflows/deploy.yml@main
     with:
       environment: prod
     secrets:
