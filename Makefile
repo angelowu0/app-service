@@ -4,7 +4,7 @@ VENV := .venv
 PYTHON := $(VENV)/bin/python
 PIP := $(VENV)/bin/pip
 
-TAG := app_service
+TAG := latest
 ENV := dev
 
 build:
@@ -14,10 +14,10 @@ build:
 
 
 test: build
-	@echo "Testing"
+	$(PYTHON) -m pytest tests/ -v
 
 image:
-	docker build -t $(TAG) .
+	docker build -t app-service:$(TAG) .
 
 deploy: image
-	docker run -p 8080:8080 -d $(TAG)
+	docker run -p 8080:8080 -d app-service:$(TAG)
