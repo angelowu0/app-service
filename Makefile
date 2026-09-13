@@ -20,7 +20,7 @@ image:
 	docker build -t app-service:$(TAG) .
 
 deploy: image
-    @if [ "$(ENV)" = "prod" ]; then \
+	@if [ "$(ENV)" = "prod" ]; then \
         docker run --name app-service-prod -p 8080:8080 -d --restart unless-stopped app-service:$(TAG); \
     elif [ "$(ENV)" = "dev" ]; then \
         docker run --name app-service-dev -p 8081:8080 -d app-service:$(TAG); \
