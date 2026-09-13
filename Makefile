@@ -20,4 +20,10 @@ image:
 	docker build -t app-service:$(TAG) .
 
 deploy: image
-	docker run -p 8080:8080 -d app-service:$(TAG)
+    @if [ "$(ENV)" = "prod" ]; then \
+        docker run --name app-service-prod -p 8080:8080 -d --restart unless-stopped app-service:$(TAG); \
+    elif [ "$(ENV)" = "dev" ]; then \
+        docker run --name app-service-dev -p 8081:8080 -d app-service:$(TAG); \
+    else \
+        echo "ERROR: unknown ENV '$(ENV)' (expected dev or prod)"; exit 1; \
+    fi
