@@ -31,4 +31,4 @@ if __name__ == "__main__":
     # 0.0.0.0 is required so the process is reachable from outside the
     # container; the real security boundary is the container/network layer,
     # not this bind address. Reviewed and explicitly accepted, not silenced.
-    app.run(host="0.0.0.0", port=8080)  # nosec B104
+    app.run(host="0.0.0.0", port=8080)  # nosec B104 - binds to all interfaces intentionally; container network isolation handles exposure control
