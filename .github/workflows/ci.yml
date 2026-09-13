@@ -1,0 +1,70 @@
+name: app-service-pipeline
+
+on:
+  push:
+    branches: [dev, qa, uat, preprod, main]
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-test:
+    name: "Build and test"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Lint Dockerfile
+        uses: hadolint/hadolint-action@v3.1.0
+        with:
+          dockerfile: Dockerfile
+      - run: make build && make test
+
+  deploy-dev:
+    name: "Deploy to dev"
+    needs: build-test
+    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/dev' }}
+    uses: angelowu0/gh-sharedrepo-example/.github/workflows/develop.yml@main
+    with:
+      environment: dev
+    secrets:
+      aws-role-arn: ${{ secrets.AWS_ROLE_ARN }}
+
+  deploy-qa:
+    name: "Deploy to qa"
+    needs: [build-test, deploy-dev]
+    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/qa' }}
+    uses: angelowu0/gh-sharedrepo-example/.github/workflows/develop.yml@main
+    with:
+      environment: qa
+    secrets:
+      aws-role-arn: ${{ secrets.AWS_ROLE_ARN }}
+
+  deploy-uat:
+    name: "Deploy to uat"
+    needs: [build-test, deploy-qa]
+    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/uat' }}
+    uses: angelowu0/gh-sharedrepo-example/.github/workflows/develop.yml@main
+    with:
+      environment: uat
+    secrets:
+      aws-role-arn: ${{ secrets.AWS_ROLE_ARN }}
+
+  deploy-preprod:
+    name: "Deploy to preprod"
+    needs: [build-test, deploy-uat]
+    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/preprod' }}
+    uses: angelowu0/gh-sharedrepo-example/.github/workflows/develop.yml@main
+    with:
+      environment: preprod
+    secrets:
+      aws-role-arn: ${{ secrets.AWS_ROLE_ARN }}
+
+  deploy-prod:
+    name: "Deploy to prod"
+    needs: [build-test, deploy-preprod]
+    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+    uses: angelowu0/gh-sharedrepo-example/.github/workflows/develop.yml@main
+    with:
+      environment: prod
+    secrets:
+      aws-role-arn: ${{ secrets.AWS_ROLE_ARN }}
