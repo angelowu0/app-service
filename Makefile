@@ -27,3 +27,6 @@ deploy: image
     else \
         echo "ERROR: unknown ENV '$(ENV)' (expected dev or prod)"; exit 1; \
     fi
+
+security: build
+	./security_gate.sh

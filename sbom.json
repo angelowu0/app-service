@@ -1,0 +1,4589 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "app-service:latest",
+  "documentNamespace": "http://trivy.dev/container_image/app-service:latest-79bcde3a-f034-48a2-8ff3-a42207a05dbc",
+  "creationInfo": {
+    "creators": [
+      "Organization: aquasecurity",
+      "Tool: trivy-0.71.2"
+    ],
+    "created": "2026-09-13T11:59:40Z"
+  },
+  "packages": [
+    {
+      "name": "app-service:latest",
+      "SPDXID": "SPDXRef-ContainerImage-6d830225c3c93413",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:oci/app-service@sha256:edadcaf721a5488c90fced015894b794de3929d049fab109b4ed502318a3cf76?arch=arm64\u0026repository_url=index.docker.io%2Flibrary%2Fapp-service"
+        }
+      ],
+      "primaryPackagePurpose": "CONTAINER",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "DiffID: sha256:1fa728c57d8710903a012eea24521e392f61c541fbde262c8045ce6aa2f8201f"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "DiffID: sha256:4c1e8f1e0a48aa0b071daa69c4b38a3de5393e25782168be2cd7fd829eb1e63e"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "DiffID: sha256:74214f5b9fcbf10edbf83aac89d5483d4ad640be32180729c830b3aa58362cdd"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "DiffID: sha256:92efdf566253e67c9e2ca092cb4cc544af69a3d7c2804254f58138ffb564626c"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "DiffID: sha256:ac6a97fc59753e49f1c4ddea42b8270c44de052feabbe308f8000b6b731571d0"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "DiffID: sha256:cb76bf1607417f3929a63b5c571fa755470cf27f812ff75382f87ebb89bd105b"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "DiffID: sha256:e0bf676926c5ecf4207ac945b875e4d1a8f140a1e6a5e63c40d18f16746f1367"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "DiffID: sha256:ec4fb7cbf7f5b2b2f10d1cfa84ecc44fbe48acd16367d1732a26ea23f8fba1ab"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "ImageID: sha256:edadcaf721a5488c90fced015894b794de3929d049fab109b4ed502318a3cf76"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "Labels:com.docker.dhi.chain-id: sha256:5856e947d325b688d6fa78277691b4283ebf8cda2e5cdcd8c72dbc21f37eea94"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "Labels:com.docker.dhi.compliance: cis"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "Labels:com.docker.dhi.created: 2026-09-08T23:19:15Z"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "Labels:com.docker.dhi.date.end-of-life: 2029-10-31"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "Labels:com.docker.dhi.date.release: 2024-10-07"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "Labels:com.docker.dhi.definition: image/python/debian-13/3.13"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "Labels:com.docker.dhi.distro: debian-13"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "Labels:com.docker.dhi.entitlement: public"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "Labels:com.docker.dhi.name: dhi/python"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "Labels:com.docker.dhi.title: Python 3.13.x"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "Labels:com.docker.dhi.url: https://dhi.io/catalog/python"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "Labels:com.docker.dhi.variant: runtime"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "Labels:com.docker.dhi.version: 3.13.15-debian13"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "Reference: app-service:latest"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "RepoDigest: app-service@sha256:edadcaf721a5488c90fced015894b794de3929d049fab109b4ed502318a3cf76"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "RepoTag: app-service:latest"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "SchemaVersion: 2"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "Size: 111259648"
+        }
+      ]
+    },
+    {
+      "name": "CacheControl",
+      "SPDXID": "SPDXRef-Package-39b7cca77ac31cfb",
+      "versionInfo": "0.14.4",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/cachecontrol@0.14.4"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:e0bf676926c5ecf4207ac945b875e4d1a8f140a1e6a5e63c40d18f16746f1367"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:d65b86fb5fc6c0ef4d24d536a08788cee53d6f2a47c366008f9a1b8f4b1d66d9"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: CacheControl@0.14.4"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "Flask",
+      "SPDXID": "SPDXRef-Package-eecd4569b1c9b8d7",
+      "versionInfo": "3.0.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "0b63281fd3681b49ad3bcc21dbc2d0f92d83a331"
+      },
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/flask@3.0.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:e0bf676926c5ecf4207ac945b875e4d1a8f140a1e6a5e63c40d18f16746f1367"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:d65b86fb5fc6c0ef4d24d536a08788cee53d6f2a47c366008f9a1b8f4b1d66d9"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "Jinja2",
+      "SPDXID": "SPDXRef-Package-2a72ee62de887153",
+      "versionInfo": "3.1.6",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "1540e88490a7d8e70f3b505bfb98696ba9493e30"
+      },
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/jinja2@3.1.6"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:e0bf676926c5ecf4207ac945b875e4d1a8f140a1e6a5e63c40d18f16746f1367"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:d65b86fb5fc6c0ef4d24d536a08788cee53d6f2a47c366008f9a1b8f4b1d66d9"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "MarkupSafe",
+      "SPDXID": "SPDXRef-Package-cc8e2887867840de",
+      "versionInfo": "3.0.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "c4c0970ea5fea25fbc59621bae2c69bef4d3d7da"
+      },
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/markupsafe@3.0.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:e0bf676926c5ecf4207ac945b875e4d1a8f140a1e6a5e63c40d18f16746f1367"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:d65b86fb5fc6c0ef4d24d536a08788cee53d6f2a47c366008f9a1b8f4b1d66d9"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "Werkzeug",
+      "SPDXID": "SPDXRef-Package-e71576e255d4295c",
+      "versionInfo": "3.1.8",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "95ca1ff582929b630b41f789351ec8bfe9463048"
+      },
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/werkzeug@3.1.8"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:e0bf676926c5ecf4207ac945b875e4d1a8f140a1e6a5e63c40d18f16746f1367"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:d65b86fb5fc6c0ef4d24d536a08788cee53d6f2a47c366008f9a1b8f4b1d66d9"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "base-files",
+      "SPDXID": "SPDXRef-Package-ee2556e681724376",
+      "versionInfo": "13.8+deb13u7+dhi0",
+      "supplier": "Organization: Docker Hardened Images \u003cdhi@docker.com\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: base-files 13.8+deb13u7+dhi0",
+      "licenseConcluded": "GPL-2.0-or-later AND GPL-2.0-only AND LicenseRef-12c6299793cdf486",
+      "licenseDeclared": "GPL-2.0-or-later AND GPL-2.0-only AND LicenseRef-12c6299793cdf486",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/base-files@13.8%2Bdeb13u7%2Bdhi0?arch=arm64\u0026distro=debian-13.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:92efdf566253e67c9e2ca092cb4cc544af69a3d7c2804254f58138ffb564626c"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:86b71e9b074aa3417b8c9ab76e0e85945bf006487a976661d070ee2777a05b6b"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: base-files@13.8+deb13u7+dhi0"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "blinker",
+      "SPDXID": "SPDXRef-Package-2ce1cb46d4832b94",
+      "versionInfo": "1.9.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "c73e52400da8618ac08f24979c14c5e1eeeb946d"
+      },
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/blinker@1.9.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:e0bf676926c5ecf4207ac945b875e4d1a8f140a1e6a5e63c40d18f16746f1367"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:d65b86fb5fc6c0ef4d24d536a08788cee53d6f2a47c366008f9a1b8f4b1d66d9"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "ca-certificates",
+      "SPDXID": "SPDXRef-Package-138b464c7abcfd20",
+      "versionInfo": "20250419+dhi2",
+      "supplier": "Organization: Docker Hardened Images \u003cdhi@docker.com\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: ca-certificates 20250419+dhi2",
+      "licenseConcluded": "GPL-2.0-or-later AND GPL-2.0-only AND MPL-2.0",
+      "licenseDeclared": "GPL-2.0-or-later AND GPL-2.0-only AND MPL-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/ca-certificates@20250419%2Bdhi2?arch=all\u0026distro=debian-13.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:92efdf566253e67c9e2ca092cb4cc544af69a3d7c2804254f58138ffb564626c"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:86b71e9b074aa3417b8c9ab76e0e85945bf006487a976661d070ee2777a05b6b"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: ca-certificates@20250419+dhi2"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "certifi",
+      "SPDXID": "SPDXRef-Package-364bde88c35a5d4",
+      "versionInfo": "2026.7.22",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "9c4dad50d6f95702263264293b0068095c658e5b"
+      },
+      "licenseConcluded": "MPL-2.0",
+      "licenseDeclared": "MPL-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/certifi@2026.7.22"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:e0bf676926c5ecf4207ac945b875e4d1a8f140a1e6a5e63c40d18f16746f1367"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:d65b86fb5fc6c0ef4d24d536a08788cee53d6f2a47c366008f9a1b8f4b1d66d9"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "certifi",
+      "SPDXID": "SPDXRef-Package-caa1890ee4349dc5",
+      "versionInfo": "2026.6.17",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/certifi@2026.6.17"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:e0bf676926c5ecf4207ac945b875e4d1a8f140a1e6a5e63c40d18f16746f1367"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:d65b86fb5fc6c0ef4d24d536a08788cee53d6f2a47c366008f9a1b8f4b1d66d9"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: certifi@2026.6.17"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "charset-normalizer",
+      "SPDXID": "SPDXRef-Package-62de55de4dcbcc19",
+      "versionInfo": "3.5.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "7bda0e65e567d2bf8f04e64bf14f756cd8764612"
+      },
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/charset-normalizer@3.5.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:e0bf676926c5ecf4207ac945b875e4d1a8f140a1e6a5e63c40d18f16746f1367"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:d65b86fb5fc6c0ef4d24d536a08788cee53d6f2a47c366008f9a1b8f4b1d66d9"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "click",
+      "SPDXID": "SPDXRef-Package-e1e0b060061fb194",
+      "versionInfo": "8.5.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "83e66bfc9f03be4eabb62edd4c4538926976aebd"
+      },
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/click@8.5.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:e0bf676926c5ecf4207ac945b875e4d1a8f140a1e6a5e63c40d18f16746f1367"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:d65b86fb5fc6c0ef4d24d536a08788cee53d6f2a47c366008f9a1b8f4b1d66d9"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "debconf",
+      "SPDXID": "SPDXRef-Package-49d81f437483b34b",
+      "versionInfo": "1.5.91+dhi1",
+      "supplier": "Organization: Docker Hardened Images \u003cdhi@docker.com\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: debconf 1.5.91+dhi1",
+      "licenseConcluded": "BSD-2-Clause",
+      "licenseDeclared": "BSD-2-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/debconf@1.5.91%2Bdhi1?arch=all\u0026distro=debian-13.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:92efdf566253e67c9e2ca092cb4cc544af69a3d7c2804254f58138ffb564626c"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:86b71e9b074aa3417b8c9ab76e0e85945bf006487a976661d070ee2777a05b6b"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: debconf@1.5.91+dhi1"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "distlib",
+      "SPDXID": "SPDXRef-Package-b7309a14b2382063",
+      "versionInfo": "0.4.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/distlib@0.4.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:e0bf676926c5ecf4207ac945b875e4d1a8f140a1e6a5e63c40d18f16746f1367"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:d65b86fb5fc6c0ef4d24d536a08788cee53d6f2a47c366008f9a1b8f4b1d66d9"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: distlib@0.4.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "distro",
+      "SPDXID": "SPDXRef-Package-af72c81d0d54398b",
+      "versionInfo": "1.9.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/distro@1.9.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:e0bf676926c5ecf4207ac945b875e4d1a8f140a1e6a5e63c40d18f16746f1367"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:d65b86fb5fc6c0ef4d24d536a08788cee53d6f2a47c366008f9a1b8f4b1d66d9"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: distro@1.9.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "gcc-14-base",
+      "SPDXID": "SPDXRef-Package-983d230e5ce648e5",
+      "versionInfo": "14.2.0-19+dhi3",
+      "supplier": "Organization: Docker Hardened Images \u003cdhi@docker.com\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: gcc-14 14.2.0-19+dhi3",
+      "licenseConcluded": "GPL-2.0-or-later AND GPL-3.0-only AND GFDL-1.2-only AND Artistic-2.0 AND LGPL-2.0-or-later",
+      "licenseDeclared": "GPL-2.0-or-later AND GPL-3.0-only AND GFDL-1.2-only AND Artistic-2.0 AND LGPL-2.0-or-later",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/gcc-14-base@14.2.0-19%2Bdhi3?arch=arm64\u0026distro=debian-13.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:92efdf566253e67c9e2ca092cb4cc544af69a3d7c2804254f58138ffb564626c"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:86b71e9b074aa3417b8c9ab76e0e85945bf006487a976661d070ee2777a05b6b"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: gcc-14-base@14.2.0-19+dhi3"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "gunicorn",
+      "SPDXID": "SPDXRef-Package-dc6a03055315d649",
+      "versionInfo": "22.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "0f953da6053a537f86e063160ba7ae6cbcbdcf03"
+      },
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/gunicorn@22.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:e0bf676926c5ecf4207ac945b875e4d1a8f140a1e6a5e63c40d18f16746f1367"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:d65b86fb5fc6c0ef4d24d536a08788cee53d6f2a47c366008f9a1b8f4b1d66d9"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "idna",
+      "SPDXID": "SPDXRef-Package-1d4f173ca7d9438a",
+      "versionInfo": "3.18",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/idna@3.18"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:e0bf676926c5ecf4207ac945b875e4d1a8f140a1e6a5e63c40d18f16746f1367"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:d65b86fb5fc6c0ef4d24d536a08788cee53d6f2a47c366008f9a1b8f4b1d66d9"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: idna@3.18"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "idna",
+      "SPDXID": "SPDXRef-Package-f1942e7ba73c3df1",
+      "versionInfo": "3.19",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "43534853616c0e5133ea33c79d73df35ec29917f"
+      },
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/idna@3.19"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:e0bf676926c5ecf4207ac945b875e4d1a8f140a1e6a5e63c40d18f16746f1367"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:d65b86fb5fc6c0ef4d24d536a08788cee53d6f2a47c366008f9a1b8f4b1d66d9"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "iniconfig",
+      "SPDXID": "SPDXRef-Package-a9947c3732d2c445",
+      "versionInfo": "2.3.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "5e30e7a8638d3a7a2959837d47a3c00909f2a5da"
+      },
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/iniconfig@2.3.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:e0bf676926c5ecf4207ac945b875e4d1a8f140a1e6a5e63c40d18f16746f1367"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:d65b86fb5fc6c0ef4d24d536a08788cee53d6f2a47c366008f9a1b8f4b1d66d9"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "itsdangerous",
+      "SPDXID": "SPDXRef-Package-765160c95aa238bb",
+      "versionInfo": "2.2.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "7fac6e10716920ee356b16bd8bb5fac1606d743f"
+      },
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/itsdangerous@2.2.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:e0bf676926c5ecf4207ac945b875e4d1a8f140a1e6a5e63c40d18f16746f1367"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:d65b86fb5fc6c0ef4d24d536a08788cee53d6f2a47c366008f9a1b8f4b1d66d9"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "libbz2-1.0",
+      "SPDXID": "SPDXRef-Package-2ffe3ec88a456102",
+      "versionInfo": "1.0.8-6+dhi2",
+      "supplier": "Organization: Docker Hardened Images \u003cdhi@docker.com\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: bzip2 1.0.8-6+dhi2",
+      "licenseConcluded": "BSD-3-Clause AND GPL-2.0-only",
+      "licenseDeclared": "BSD-3-Clause AND GPL-2.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libbz2-1.0@1.0.8-6%2Bdhi2?arch=arm64\u0026distro=debian-13.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:92efdf566253e67c9e2ca092cb4cc544af69a3d7c2804254f58138ffb564626c"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:86b71e9b074aa3417b8c9ab76e0e85945bf006487a976661d070ee2777a05b6b"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: libbz2-1.0@1.0.8-6+dhi2"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "libc6",
+      "SPDXID": "SPDXRef-Package-a655c595ee51cac3",
+      "versionInfo": "2.41-12+deb13u4",
+      "supplier": "Organization: GNU Libc Maintainers \u003cdebian-glibc@lists.debian.org\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: glibc 2.41-12+deb13u4",
+      "licenseConcluded": "LGPL-2.1-or-later AND LGPL-2.0-or-later AND LicenseRef-c6b2410a5c598c88 AND LGPL-3.0-or-later AND GPL-2.0-or-later AND LicenseRef-423408a015e1a81c AND GPL-2.0-only AND GPL-3.0-or-later AND FSFAP AND LicenseRef-c182a7dc004f285e AND LicenseRef-e81f367b8432b910 AND LicenseRef-74776a0cc7195ca2 AND LicenseRef-dc8726d2de821f66 AND LicenseRef-d6f9a4de9ffae498 AND LicenseRef-3ba59e3587be17a6 AND Unicode-DFS-2016 AND BSL-1.0 AND SunPro AND LicenseRef-aece73c3fcfabe34 AND LicenseRef-9333c215157468c2 AND LicenseRef-1340db71a4796d76 AND BSD-2-Clause AND LicenseRef-a43625359a0b6781 AND LicenseRef-8bf7c6b30c74e012 AND LicenseRef-fb4f6ca6869659b AND ISC AND LicenseRef-1d467a358256effa AND LicenseRef-abb60753a4b5686d AND GPL-3.0-only AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only",
+      "licenseDeclared": "LGPL-2.1-or-later AND LGPL-2.0-or-later AND LicenseRef-c6b2410a5c598c88 AND LGPL-3.0-or-later AND GPL-2.0-or-later AND LicenseRef-423408a015e1a81c AND GPL-2.0-only AND GPL-3.0-or-later AND FSFAP AND LicenseRef-c182a7dc004f285e AND LicenseRef-e81f367b8432b910 AND LicenseRef-74776a0cc7195ca2 AND LicenseRef-dc8726d2de821f66 AND LicenseRef-d6f9a4de9ffae498 AND LicenseRef-3ba59e3587be17a6 AND Unicode-DFS-2016 AND BSL-1.0 AND SunPro AND LicenseRef-aece73c3fcfabe34 AND LicenseRef-9333c215157468c2 AND LicenseRef-1340db71a4796d76 AND BSD-2-Clause AND LicenseRef-a43625359a0b6781 AND LicenseRef-8bf7c6b30c74e012 AND LicenseRef-fb4f6ca6869659b AND ISC AND LicenseRef-1d467a358256effa AND LicenseRef-abb60753a4b5686d AND GPL-3.0-only AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libc6@2.41-12%2Bdeb13u4?arch=arm64\u0026distro=debian-13.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:92efdf566253e67c9e2ca092cb4cc544af69a3d7c2804254f58138ffb564626c"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:86b71e9b074aa3417b8c9ab76e0e85945bf006487a976661d070ee2777a05b6b"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: libc6@2.41-12+deb13u4"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "libcrypt1",
+      "SPDXID": "SPDXRef-Package-6cbcce83ca16fb85",
+      "versionInfo": "1:4.4.38-1+dhi2",
+      "supplier": "Organization: Docker Hardened Images \u003cdhi@docker.com\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: libxcrypt 1:4.4.38-1+dhi2",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libcrypt1@4.4.38-1%2Bdhi2?arch=arm64\u0026distro=debian-13.7\u0026epoch=1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:92efdf566253e67c9e2ca092cb4cc544af69a3d7c2804254f58138ffb564626c"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:86b71e9b074aa3417b8c9ab76e0e85945bf006487a976661d070ee2777a05b6b"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: libcrypt1@1:4.4.38-1+dhi2"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "libdb5.3t64",
+      "SPDXID": "SPDXRef-Package-4c54dc4eb2084723",
+      "versionInfo": "5.3.28+dfsg2-9+dhi1",
+      "supplier": "Organization: Docker Hardened Images \u003cdhi@docker.com\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: db5.3 5.3.28+dfsg2-9+dhi1",
+      "licenseConcluded": "Sleepycat AND BSD-3-Clause AND MS-PL AND GPL-2.0-or-later AND Artistic-2.0 AND X11 AND LicenseRef-f903241c457972c7 AND LicenseRef-a58a180f0b4def25 AND LicenseRef-d73b6710504f8977 AND GPL-3.0-only AND Zlib",
+      "licenseDeclared": "Sleepycat AND BSD-3-Clause AND MS-PL AND GPL-2.0-or-later AND Artistic-2.0 AND X11 AND LicenseRef-f903241c457972c7 AND LicenseRef-a58a180f0b4def25 AND LicenseRef-d73b6710504f8977 AND GPL-3.0-only AND Zlib",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libdb5.3t64@5.3.28%2Bdfsg2-9%2Bdhi1?arch=arm64\u0026distro=debian-13.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:92efdf566253e67c9e2ca092cb4cc544af69a3d7c2804254f58138ffb564626c"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:86b71e9b074aa3417b8c9ab76e0e85945bf006487a976661d070ee2777a05b6b"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: libdb5.3t64@5.3.28+dfsg2-9+dhi1"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "libexpat1",
+      "SPDXID": "SPDXRef-Package-3f7aeca6ed65893",
+      "versionInfo": "2.8.3-1~deb13u1+dhi3",
+      "supplier": "Organization: Docker Hardened Images \u003cdhi@docker.com\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: expat 2.8.3-1~deb13u1+dhi3",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libexpat1@2.8.3-1~deb13u1%2Bdhi3?arch=arm64\u0026distro=debian-13.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:92efdf566253e67c9e2ca092cb4cc544af69a3d7c2804254f58138ffb564626c"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:86b71e9b074aa3417b8c9ab76e0e85945bf006487a976661d070ee2777a05b6b"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: libexpat1@2.8.3-1~deb13u1+dhi3"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "libffi8",
+      "SPDXID": "SPDXRef-Package-3edd2a2098902a6d",
+      "versionInfo": "3.4.8-2+dhi2",
+      "supplier": "Organization: Docker Hardened Images \u003cdhi@docker.com\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: libffi 3.4.8-2+dhi2",
+      "licenseConcluded": "MIT AND X11 AND GPL-2.0-or-later AND GPL-3.0-or-later AND MPL-1.1 AND LGPL-2.1-or-later AND LicenseRef-abb60753a4b5686d",
+      "licenseDeclared": "MIT AND X11 AND GPL-2.0-or-later AND GPL-3.0-or-later AND MPL-1.1 AND LGPL-2.1-or-later AND LicenseRef-abb60753a4b5686d",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libffi8@3.4.8-2%2Bdhi2?arch=arm64\u0026distro=debian-13.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:92efdf566253e67c9e2ca092cb4cc544af69a3d7c2804254f58138ffb564626c"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:86b71e9b074aa3417b8c9ab76e0e85945bf006487a976661d070ee2777a05b6b"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: libffi8@3.4.8-2+dhi2"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "libgcc-s1",
+      "SPDXID": "SPDXRef-Package-f78e12f376fd11fd",
+      "versionInfo": "14.2.0-19+dhi3",
+      "supplier": "Organization: Docker Hardened Images \u003cdhi@docker.com\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: gcc-14 14.2.0-19+dhi3",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libgcc-s1@14.2.0-19%2Bdhi3?arch=arm64\u0026distro=debian-13.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:92efdf566253e67c9e2ca092cb4cc544af69a3d7c2804254f58138ffb564626c"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:86b71e9b074aa3417b8c9ab76e0e85945bf006487a976661d070ee2777a05b6b"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: libgcc-s1@14.2.0-19+dhi3"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "libgdbm-compat4t64",
+      "SPDXID": "SPDXRef-Package-a6b4c49bdfd65272",
+      "versionInfo": "1.24-2+dhi2",
+      "supplier": "Organization: Docker Hardened Images \u003cdhi@docker.com\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: gdbm 1.24-2+dhi2",
+      "licenseConcluded": "GPL-3.0-or-later AND GPL-2.0-or-later AND GFDL-1.3-no-invariants-or-later AND GPL-3.0-only AND GPL-2.0-only",
+      "licenseDeclared": "GPL-3.0-or-later AND GPL-2.0-or-later AND GFDL-1.3-no-invariants-or-later AND GPL-3.0-only AND GPL-2.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libgdbm-compat4t64@1.24-2%2Bdhi2?arch=arm64\u0026distro=debian-13.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:92efdf566253e67c9e2ca092cb4cc544af69a3d7c2804254f58138ffb564626c"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:86b71e9b074aa3417b8c9ab76e0e85945bf006487a976661d070ee2777a05b6b"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: libgdbm-compat4t64@1.24-2+dhi2"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "libgdbm6t64",
+      "SPDXID": "SPDXRef-Package-f3e06567a4236a3f",
+      "versionInfo": "1.24-2+dhi2",
+      "supplier": "Organization: Docker Hardened Images \u003cdhi@docker.com\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: gdbm 1.24-2+dhi2",
+      "licenseConcluded": "GPL-3.0-or-later AND GPL-2.0-or-later AND GFDL-1.3-no-invariants-or-later AND GPL-3.0-only AND GPL-2.0-only",
+      "licenseDeclared": "GPL-3.0-or-later AND GPL-2.0-or-later AND GFDL-1.3-no-invariants-or-later AND GPL-3.0-only AND GPL-2.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libgdbm6t64@1.24-2%2Bdhi2?arch=arm64\u0026distro=debian-13.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:92efdf566253e67c9e2ca092cb4cc544af69a3d7c2804254f58138ffb564626c"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:86b71e9b074aa3417b8c9ab76e0e85945bf006487a976661d070ee2777a05b6b"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: libgdbm6t64@1.24-2+dhi2"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "liblzma5",
+      "SPDXID": "SPDXRef-Package-4290e82501306439",
+      "versionInfo": "5.8.1-1+dhi1",
+      "supplier": "Organization: Docker Hardened Images \u003cdhi@docker.com\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: xz-utils 5.8.1-1+dhi1",
+      "licenseConcluded": "0BSD AND GPL-2.0-or-later AND LGPL-2.1-or-later AND FSFULLR AND GPL-3.0-or-later WITH Autoconf-exception-macro AND LicenseRef-fd21f3c328b9bed1 AND LicenseRef-3cdc756d656e2ca AND LicenseRef-5043101562052462 AND FSFUL AND LicenseRef-d83a6885a824fb4 AND LicenseRef-e31d45987d439b46 AND LGPL-2.1-only AND GPL-2.0-only AND GPL-3.0-only",
+      "licenseDeclared": "0BSD AND GPL-2.0-or-later AND LGPL-2.1-or-later AND FSFULLR AND GPL-3.0-or-later WITH Autoconf-exception-macro AND LicenseRef-fd21f3c328b9bed1 AND LicenseRef-3cdc756d656e2ca AND LicenseRef-5043101562052462 AND FSFUL AND LicenseRef-d83a6885a824fb4 AND LicenseRef-e31d45987d439b46 AND LGPL-2.1-only AND GPL-2.0-only AND GPL-3.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/liblzma5@5.8.1-1%2Bdhi1?arch=arm64\u0026distro=debian-13.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:92efdf566253e67c9e2ca092cb4cc544af69a3d7c2804254f58138ffb564626c"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:86b71e9b074aa3417b8c9ab76e0e85945bf006487a976661d070ee2777a05b6b"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: liblzma5@5.8.1-1+dhi1"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "libncursesw6",
+      "SPDXID": "SPDXRef-Package-2e8799feb2578ded",
+      "versionInfo": "6.5+20250216-2+dhi4",
+      "supplier": "Organization: Docker Hardened Images \u003cdhi@docker.com\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: ncurses 6.5+20250216-2+dhi4",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libncursesw6@6.5%2B20250216-2%2Bdhi4?arch=arm64\u0026distro=debian-13.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:92efdf566253e67c9e2ca092cb4cc544af69a3d7c2804254f58138ffb564626c"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:86b71e9b074aa3417b8c9ab76e0e85945bf006487a976661d070ee2777a05b6b"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: libncursesw6@6.5+20250216-2+dhi4"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "libpython-3.13",
+      "SPDXID": "SPDXRef-Package-6d44eb81d660fc4e",
+      "versionInfo": "3.13.15-1",
+      "supplier": "Organization: Docker Hardened Images \u003cdhi@docker.com\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: python-3.13 3.13.15-1",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libpython-3.13@3.13.15-1?arch=arm64\u0026distro=debian-13.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:92efdf566253e67c9e2ca092cb4cc544af69a3d7c2804254f58138ffb564626c"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:86b71e9b074aa3417b8c9ab76e0e85945bf006487a976661d070ee2777a05b6b"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: libpython-3.13@3.13.15-1"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "libpython-3.13-minimal",
+      "SPDXID": "SPDXRef-Package-ded4de7d287dd249",
+      "versionInfo": "3.13.15-1",
+      "supplier": "Organization: Docker Hardened Images \u003cdhi@docker.com\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: python-3.13 3.13.15-1",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libpython-3.13-minimal@3.13.15-1?arch=arm64\u0026distro=debian-13.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:92efdf566253e67c9e2ca092cb4cc544af69a3d7c2804254f58138ffb564626c"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:86b71e9b074aa3417b8c9ab76e0e85945bf006487a976661d070ee2777a05b6b"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: libpython-3.13-minimal@3.13.15-1"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "libpython-3.13-stdlib",
+      "SPDXID": "SPDXRef-Package-a6e1f90e7654fd8c",
+      "versionInfo": "3.13.15-1",
+      "supplier": "Organization: Docker Hardened Images \u003cdhi@docker.com\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: python-3.13 3.13.15-1",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libpython-3.13-stdlib@3.13.15-1?arch=arm64\u0026distro=debian-13.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:92efdf566253e67c9e2ca092cb4cc544af69a3d7c2804254f58138ffb564626c"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:86b71e9b074aa3417b8c9ab76e0e85945bf006487a976661d070ee2777a05b6b"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: libpython-3.13-stdlib@3.13.15-1"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "libreadline8t64",
+      "SPDXID": "SPDXRef-Package-ca14303bf00e45e3",
+      "versionInfo": "8.2-6+dhi2",
+      "supplier": "Organization: Docker Hardened Images \u003cdhi@docker.com\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: readline 8.2-6+dhi2",
+      "licenseConcluded": "GPL-3.0-or-later AND GPL-3.0-only AND GPL-2.0-or-later AND GPL-2.0-only AND GFDL-1.3-no-invariants-or-later AND GFDL-1.3-or-later AND LicenseRef-8ca8070d1298fe8b",
+      "licenseDeclared": "GPL-3.0-or-later AND GPL-3.0-only AND GPL-2.0-or-later AND GPL-2.0-only AND GFDL-1.3-no-invariants-or-later AND GFDL-1.3-or-later AND LicenseRef-8ca8070d1298fe8b",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libreadline8t64@8.2-6%2Bdhi2?arch=arm64\u0026distro=debian-13.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:92efdf566253e67c9e2ca092cb4cc544af69a3d7c2804254f58138ffb564626c"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:86b71e9b074aa3417b8c9ab76e0e85945bf006487a976661d070ee2777a05b6b"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: libreadline8t64@8.2-6+dhi2"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "libsqlite3-0",
+      "SPDXID": "SPDXRef-Package-92b2b14f724959d6",
+      "versionInfo": "3.46.1-7+deb13u2+dhi0",
+      "supplier": "Organization: Docker Hardened Images \u003cdhi@docker.com\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: sqlite3 3.46.1-7+deb13u2+dhi0",
+      "licenseConcluded": "LicenseRef-abb60753a4b5686d AND GPL-2.0-or-later AND GPL-2.0-only",
+      "licenseDeclared": "LicenseRef-abb60753a4b5686d AND GPL-2.0-or-later AND GPL-2.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libsqlite3-0@3.46.1-7%2Bdeb13u2%2Bdhi0?arch=arm64\u0026distro=debian-13.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:92efdf566253e67c9e2ca092cb4cc544af69a3d7c2804254f58138ffb564626c"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:86b71e9b074aa3417b8c9ab76e0e85945bf006487a976661d070ee2777a05b6b"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: libsqlite3-0@3.46.1-7+deb13u2+dhi0"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "libssl3t64",
+      "SPDXID": "SPDXRef-Package-2abdce07f1871e0",
+      "versionInfo": "3.5.7-1~deb13u2+dhi1",
+      "supplier": "Organization: Docker Hardened Images \u003cdhi@docker.com\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: openssl 3.5.7-1~deb13u2+dhi1",
+      "licenseConcluded": "Apache-2.0 AND Artistic-2.0 AND GPL-1.0-or-later AND GPL-1.0-only",
+      "licenseDeclared": "Apache-2.0 AND Artistic-2.0 AND GPL-1.0-or-later AND GPL-1.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libssl3t64@3.5.7-1~deb13u2%2Bdhi1?arch=arm64\u0026distro=debian-13.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:92efdf566253e67c9e2ca092cb4cc544af69a3d7c2804254f58138ffb564626c"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:86b71e9b074aa3417b8c9ab76e0e85945bf006487a976661d070ee2777a05b6b"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: libssl3t64@3.5.7-1~deb13u2+dhi1"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "libstdc++6",
+      "SPDXID": "SPDXRef-Package-bc7f6a9f083174cd",
+      "versionInfo": "14.2.0-19+dhi3",
+      "supplier": "Organization: Docker Hardened Images \u003cdhi@docker.com\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: gcc-14 14.2.0-19+dhi3",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libstdc%2B%2B6@14.2.0-19%2Bdhi3?arch=arm64\u0026distro=debian-13.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:92efdf566253e67c9e2ca092cb4cc544af69a3d7c2804254f58138ffb564626c"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:86b71e9b074aa3417b8c9ab76e0e85945bf006487a976661d070ee2777a05b6b"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: libstdc++6@14.2.0-19+dhi3"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "libtinfo6",
+      "SPDXID": "SPDXRef-Package-bef62a985dd939c1",
+      "versionInfo": "6.5+20250216-2+dhi4",
+      "supplier": "Organization: Docker Hardened Images \u003cdhi@docker.com\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: ncurses 6.5+20250216-2+dhi4",
+      "licenseConcluded": "LicenseRef-461e73656ab4d0 AND X11 AND BSD-3-Clause",
+      "licenseDeclared": "LicenseRef-461e73656ab4d0 AND X11 AND BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libtinfo6@6.5%2B20250216-2%2Bdhi4?arch=arm64\u0026distro=debian-13.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:92efdf566253e67c9e2ca092cb4cc544af69a3d7c2804254f58138ffb564626c"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:86b71e9b074aa3417b8c9ab76e0e85945bf006487a976661d070ee2777a05b6b"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: libtinfo6@6.5+20250216-2+dhi4"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "libuuid1",
+      "SPDXID": "SPDXRef-Package-879a03b787c194ee",
+      "versionInfo": "2.41.5-0+deb13u1+dhi3",
+      "supplier": "Organization: Docker Hardened Images \u003cdhi@docker.com\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: util-linux 2.41.5-0+deb13u1+dhi3",
+      "licenseConcluded": "GPL-2.0-or-later AND GPL-2.0-only AND GPL-3.0-or-later AND LGPL-2.1-or-later AND LicenseRef-abb60753a4b5686d AND BSD-4-Clause AND MIT AND ISC AND BSD-3-Clause AND LicenseRef-8a3f5fa45b1b1c21 AND LGPL-2.0-or-later AND BSD-2-Clause AND LGPL-3.0-or-later AND GPL-3.0-only AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only",
+      "licenseDeclared": "GPL-2.0-or-later AND GPL-2.0-only AND GPL-3.0-or-later AND LGPL-2.1-or-later AND LicenseRef-abb60753a4b5686d AND BSD-4-Clause AND MIT AND ISC AND BSD-3-Clause AND LicenseRef-8a3f5fa45b1b1c21 AND LGPL-2.0-or-later AND BSD-2-Clause AND LGPL-3.0-or-later AND GPL-3.0-only AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libuuid1@2.41.5-0%2Bdeb13u1%2Bdhi3?arch=arm64\u0026distro=debian-13.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:92efdf566253e67c9e2ca092cb4cc544af69a3d7c2804254f58138ffb564626c"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:86b71e9b074aa3417b8c9ab76e0e85945bf006487a976661d070ee2777a05b6b"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: libuuid1@2.41.5-0+deb13u1+dhi3"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "libzstd1",
+      "SPDXID": "SPDXRef-Package-9cf670fb01e8f381",
+      "versionInfo": "1.5.7+dfsg-1+dhi2",
+      "supplier": "Organization: Docker Hardened Images \u003cdhi@docker.com\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: libzstd 1.5.7+dfsg-1+dhi2",
+      "licenseConcluded": "BSD-3-Clause AND GPL-2.0-only AND Zlib AND MIT",
+      "licenseDeclared": "BSD-3-Clause AND GPL-2.0-only AND Zlib AND MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libzstd1@1.5.7%2Bdfsg-1%2Bdhi2?arch=arm64\u0026distro=debian-13.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:92efdf566253e67c9e2ca092cb4cc544af69a3d7c2804254f58138ffb564626c"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:86b71e9b074aa3417b8c9ab76e0e85945bf006487a976661d070ee2777a05b6b"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: libzstd1@1.5.7+dfsg-1+dhi2"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "msgpack",
+      "SPDXID": "SPDXRef-Package-4bf274c36113f01d",
+      "versionInfo": "1.1.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/msgpack@1.1.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:e0bf676926c5ecf4207ac945b875e4d1a8f140a1e6a5e63c40d18f16746f1367"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:d65b86fb5fc6c0ef4d24d536a08788cee53d6f2a47c366008f9a1b8f4b1d66d9"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: msgpack@1.1.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "ncurses-base",
+      "SPDXID": "SPDXRef-Package-807bcdc8cf7c5a19",
+      "versionInfo": "6.5+20250216-2+dhi4",
+      "supplier": "Organization: Docker Hardened Images \u003cdhi@docker.com\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: ncurses 6.5+20250216-2+dhi4",
+      "licenseConcluded": "LicenseRef-461e73656ab4d0 AND X11 AND BSD-3-Clause",
+      "licenseDeclared": "LicenseRef-461e73656ab4d0 AND X11 AND BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/ncurses-base@6.5%2B20250216-2%2Bdhi4?arch=all\u0026distro=debian-13.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:92efdf566253e67c9e2ca092cb4cc544af69a3d7c2804254f58138ffb564626c"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:86b71e9b074aa3417b8c9ab76e0e85945bf006487a976661d070ee2777a05b6b"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: ncurses-base@6.5+20250216-2+dhi4"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "ncurses-bin",
+      "SPDXID": "SPDXRef-Package-160dd9868494dca8",
+      "versionInfo": "6.5+20250216-2+dhi4",
+      "supplier": "Organization: Docker Hardened Images \u003cdhi@docker.com\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: ncurses 6.5+20250216-2+dhi4",
+      "licenseConcluded": "LicenseRef-461e73656ab4d0 AND X11 AND BSD-3-Clause",
+      "licenseDeclared": "LicenseRef-461e73656ab4d0 AND X11 AND BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/ncurses-bin@6.5%2B20250216-2%2Bdhi4?arch=arm64\u0026distro=debian-13.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:92efdf566253e67c9e2ca092cb4cc544af69a3d7c2804254f58138ffb564626c"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:86b71e9b074aa3417b8c9ab76e0e85945bf006487a976661d070ee2777a05b6b"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: ncurses-bin@6.5+20250216-2+dhi4"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "netbase",
+      "SPDXID": "SPDXRef-Package-2ee302eead314854",
+      "versionInfo": "6.5+dhi1",
+      "supplier": "Organization: Docker Hardened Images \u003cdhi@docker.com\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: netbase 6.5+dhi1",
+      "licenseConcluded": "GPL-2.0-only",
+      "licenseDeclared": "GPL-2.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/netbase@6.5%2Bdhi1?arch=all\u0026distro=debian-13.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:92efdf566253e67c9e2ca092cb4cc544af69a3d7c2804254f58138ffb564626c"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:86b71e9b074aa3417b8c9ab76e0e85945bf006487a976661d070ee2777a05b6b"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: netbase@6.5+dhi1"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "openssl",
+      "SPDXID": "SPDXRef-Package-ae77862315e6f68f",
+      "versionInfo": "3.5.7-1~deb13u2+dhi1",
+      "supplier": "Organization: Docker Hardened Images \u003cdhi@docker.com\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: openssl 3.5.7-1~deb13u2+dhi1",
+      "licenseConcluded": "Apache-2.0 AND Artistic-2.0 AND GPL-1.0-or-later AND GPL-1.0-only",
+      "licenseDeclared": "Apache-2.0 AND Artistic-2.0 AND GPL-1.0-or-later AND GPL-1.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/openssl@3.5.7-1~deb13u2%2Bdhi1?arch=arm64\u0026distro=debian-13.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:92efdf566253e67c9e2ca092cb4cc544af69a3d7c2804254f58138ffb564626c"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:86b71e9b074aa3417b8c9ab76e0e85945bf006487a976661d070ee2777a05b6b"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: openssl@3.5.7-1~deb13u2+dhi1"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "openssl-provider-legacy",
+      "SPDXID": "SPDXRef-Package-78fbb958b711788a",
+      "versionInfo": "3.5.7-1~deb13u2+dhi1",
+      "supplier": "Organization: Docker Hardened Images \u003cdhi@docker.com\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: openssl 3.5.7-1~deb13u2+dhi1",
+      "licenseConcluded": "Apache-2.0 AND Artistic-2.0 AND GPL-1.0-or-later AND GPL-1.0-only",
+      "licenseDeclared": "Apache-2.0 AND Artistic-2.0 AND GPL-1.0-or-later AND GPL-1.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/openssl-provider-legacy@3.5.7-1~deb13u2%2Bdhi1?arch=arm64\u0026distro=debian-13.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:92efdf566253e67c9e2ca092cb4cc544af69a3d7c2804254f58138ffb564626c"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:86b71e9b074aa3417b8c9ab76e0e85945bf006487a976661d070ee2777a05b6b"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: openssl-provider-legacy@3.5.7-1~deb13u2+dhi1"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "packaging",
+      "SPDXID": "SPDXRef-Package-55e551905c1396cb",
+      "versionInfo": "26.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/packaging@26.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:e0bf676926c5ecf4207ac945b875e4d1a8f140a1e6a5e63c40d18f16746f1367"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:d65b86fb5fc6c0ef4d24d536a08788cee53d6f2a47c366008f9a1b8f4b1d66d9"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: packaging@26.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "packaging",
+      "SPDXID": "SPDXRef-Package-919802e851572856",
+      "versionInfo": "26.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "0430c060e8591e63fbe5ede2c7d461c14cd15371"
+      },
+      "licenseConcluded": "Apache-2.0 OR BSD-2-Clause",
+      "licenseDeclared": "Apache-2.0 OR BSD-2-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/packaging@26.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:e0bf676926c5ecf4207ac945b875e4d1a8f140a1e6a5e63c40d18f16746f1367"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:d65b86fb5fc6c0ef4d24d536a08788cee53d6f2a47c366008f9a1b8f4b1d66d9"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "pip",
+      "SPDXID": "SPDXRef-Package-3fa888148084c4b7",
+      "versionInfo": "26.2.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "c9ef7e144606f26507e4ea27c5c3f010423a8acf"
+      },
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/pip@26.2.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:e0bf676926c5ecf4207ac945b875e4d1a8f140a1e6a5e63c40d18f16746f1367"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:d65b86fb5fc6c0ef4d24d536a08788cee53d6f2a47c366008f9a1b8f4b1d66d9"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "platformdirs",
+      "SPDXID": "SPDXRef-Package-2af4e9e04fde7d9f",
+      "versionInfo": "4.10.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/platformdirs@4.10.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:e0bf676926c5ecf4207ac945b875e4d1a8f140a1e6a5e63c40d18f16746f1367"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:d65b86fb5fc6c0ef4d24d536a08788cee53d6f2a47c366008f9a1b8f4b1d66d9"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: platformdirs@4.10.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "pluggy",
+      "SPDXID": "SPDXRef-Package-54a6a5347bd111ab",
+      "versionInfo": "1.6.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "4bd174410226365cf5aab6b837ff032a0d3a6974"
+      },
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/pluggy@1.6.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:e0bf676926c5ecf4207ac945b875e4d1a8f140a1e6a5e63c40d18f16746f1367"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:d65b86fb5fc6c0ef4d24d536a08788cee53d6f2a47c366008f9a1b8f4b1d66d9"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "pygments",
+      "SPDXID": "SPDXRef-Package-5540a8591959dc01",
+      "versionInfo": "2.20.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/pygments@2.20.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:e0bf676926c5ecf4207ac945b875e4d1a8f140a1e6a5e63c40d18f16746f1367"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:d65b86fb5fc6c0ef4d24d536a08788cee53d6f2a47c366008f9a1b8f4b1d66d9"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: pygments@2.20.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "pyproject-hooks",
+      "SPDXID": "SPDXRef-Package-4f29b8f20f5dfb9f",
+      "versionInfo": "1.2.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/pyproject-hooks@1.2.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:e0bf676926c5ecf4207ac945b875e4d1a8f140a1e6a5e63c40d18f16746f1367"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:d65b86fb5fc6c0ef4d24d536a08788cee53d6f2a47c366008f9a1b8f4b1d66d9"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: pyproject-hooks@1.2.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "pytest",
+      "SPDXID": "SPDXRef-Package-ebaa0c259ba65e1e",
+      "versionInfo": "8.3.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "7255fab91e238c1c12ef85bd52e84fbffe9b59b9"
+      },
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/pytest@8.3.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:e0bf676926c5ecf4207ac945b875e4d1a8f140a1e6a5e63c40d18f16746f1367"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:d65b86fb5fc6c0ef4d24d536a08788cee53d6f2a47c366008f9a1b8f4b1d66d9"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "python-3.13",
+      "SPDXID": "SPDXRef-Package-c4853b4790f484a9",
+      "versionInfo": "3.13.15-1",
+      "supplier": "Organization: Docker Hardened Images \u003cdhi@docker.com\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: python-3.13 3.13.15-1",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/python-3.13@3.13.15-1?arch=arm64\u0026distro=debian-13.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:92efdf566253e67c9e2ca092cb4cc544af69a3d7c2804254f58138ffb564626c"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:86b71e9b074aa3417b8c9ab76e0e85945bf006487a976661d070ee2777a05b6b"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: python-3.13@3.13.15-1"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "python-3.13-minimal",
+      "SPDXID": "SPDXRef-Package-21769e7ecc764ee8",
+      "versionInfo": "3.13.15-1",
+      "supplier": "Organization: Docker Hardened Images \u003cdhi@docker.com\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: python-3.13 3.13.15-1",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/python-3.13-minimal@3.13.15-1?arch=arm64\u0026distro=debian-13.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:92efdf566253e67c9e2ca092cb4cc544af69a3d7c2804254f58138ffb564626c"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:86b71e9b074aa3417b8c9ab76e0e85945bf006487a976661d070ee2777a05b6b"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: python-3.13-minimal@3.13.15-1"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "python3-pip",
+      "SPDXID": "SPDXRef-Package-588d1bb5138ffbf7",
+      "versionInfo": "26.2.1-0",
+      "supplier": "Organization: Docker Hardened Images \u003cdhi@docker.com\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: python3-pip 26.2.1-0",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/python3-pip@26.2.1-0?arch=all\u0026distro=debian-13.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:92efdf566253e67c9e2ca092cb4cc544af69a3d7c2804254f58138ffb564626c"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:86b71e9b074aa3417b8c9ab76e0e85945bf006487a976661d070ee2777a05b6b"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: python3-pip@26.2.1-0"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "python3-pip-whl",
+      "SPDXID": "SPDXRef-Package-8501e869c4cce7f4",
+      "versionInfo": "26.2.1-0",
+      "supplier": "Organization: Docker Hardened Images \u003cdhi@docker.com\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: python3-pip 26.2.1-0",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/python3-pip-whl@26.2.1-0?arch=all\u0026distro=debian-13.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:92efdf566253e67c9e2ca092cb4cc544af69a3d7c2804254f58138ffb564626c"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:86b71e9b074aa3417b8c9ab76e0e85945bf006487a976661d070ee2777a05b6b"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: python3-pip-whl@26.2.1-0"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "python3-setuptools",
+      "SPDXID": "SPDXRef-Package-131b784ca1143431",
+      "versionInfo": "84.0.0-0",
+      "supplier": "Organization: Docker Hardened Images \u003cdhi@docker.com\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: python3-setuptools 84.0.0-0",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/python3-setuptools@84.0.0-0?arch=all\u0026distro=debian-13.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:92efdf566253e67c9e2ca092cb4cc544af69a3d7c2804254f58138ffb564626c"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:86b71e9b074aa3417b8c9ab76e0e85945bf006487a976661d070ee2777a05b6b"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: python3-setuptools@84.0.0-0"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "python3-setuptools-whl",
+      "SPDXID": "SPDXRef-Package-c701f715e027e7dc",
+      "versionInfo": "84.0.0-0",
+      "supplier": "Organization: Docker Hardened Images \u003cdhi@docker.com\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: python3-setuptools 84.0.0-0",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/python3-setuptools-whl@84.0.0-0?arch=all\u0026distro=debian-13.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:92efdf566253e67c9e2ca092cb4cc544af69a3d7c2804254f58138ffb564626c"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:86b71e9b074aa3417b8c9ab76e0e85945bf006487a976661d070ee2777a05b6b"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: python3-setuptools-whl@84.0.0-0"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "python3-wheel",
+      "SPDXID": "SPDXRef-Package-f6dc988d8678fc5a",
+      "versionInfo": "0.48.0-0",
+      "supplier": "Organization: Docker Hardened Images \u003cdhi@docker.com\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: python3-wheel 0.48.0-0",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/python3-wheel@0.48.0-0?arch=all\u0026distro=debian-13.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:92efdf566253e67c9e2ca092cb4cc544af69a3d7c2804254f58138ffb564626c"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:86b71e9b074aa3417b8c9ab76e0e85945bf006487a976661d070ee2777a05b6b"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: python3-wheel@0.48.0-0"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "python3-wheel-whl",
+      "SPDXID": "SPDXRef-Package-14afb06828950ed",
+      "versionInfo": "0.48.0-0",
+      "supplier": "Organization: Docker Hardened Images \u003cdhi@docker.com\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: python3-wheel 0.48.0-0",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/python3-wheel-whl@0.48.0-0?arch=all\u0026distro=debian-13.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:92efdf566253e67c9e2ca092cb4cc544af69a3d7c2804254f58138ffb564626c"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:86b71e9b074aa3417b8c9ab76e0e85945bf006487a976661d070ee2777a05b6b"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: python3-wheel-whl@0.48.0-0"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "readline-common",
+      "SPDXID": "SPDXRef-Package-2541942a1f3f96dc",
+      "versionInfo": "8.2-6+dhi2",
+      "supplier": "Organization: Docker Hardened Images \u003cdhi@docker.com\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: readline 8.2-6+dhi2",
+      "licenseConcluded": "GPL-3.0-or-later AND GPL-3.0-only AND GPL-2.0-or-later AND GPL-2.0-only AND GFDL-1.3-no-invariants-or-later AND GFDL-1.3-or-later AND LicenseRef-8ca8070d1298fe8b",
+      "licenseDeclared": "GPL-3.0-or-later AND GPL-3.0-only AND GPL-2.0-or-later AND GPL-2.0-only AND GFDL-1.3-no-invariants-or-later AND GFDL-1.3-or-later AND LicenseRef-8ca8070d1298fe8b",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/readline-common@8.2-6%2Bdhi2?arch=all\u0026distro=debian-13.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:92efdf566253e67c9e2ca092cb4cc544af69a3d7c2804254f58138ffb564626c"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:86b71e9b074aa3417b8c9ab76e0e85945bf006487a976661d070ee2777a05b6b"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: readline-common@8.2-6+dhi2"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "requests",
+      "SPDXID": "SPDXRef-Package-41461c39f33e6eb1",
+      "versionInfo": "2.34.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/requests@2.34.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:e0bf676926c5ecf4207ac945b875e4d1a8f140a1e6a5e63c40d18f16746f1367"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:d65b86fb5fc6c0ef4d24d536a08788cee53d6f2a47c366008f9a1b8f4b1d66d9"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: requests@2.34.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "requests",
+      "SPDXID": "SPDXRef-Package-ad8dfd8487a516f8",
+      "versionInfo": "2.32.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "c5ec04f756a79a4891f7f3ba6c09258fccd4a6f8"
+      },
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/requests@2.32.3"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:e0bf676926c5ecf4207ac945b875e4d1a8f140a1e6a5e63c40d18f16746f1367"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:d65b86fb5fc6c0ef4d24d536a08788cee53d6f2a47c366008f9a1b8f4b1d66d9"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "resolvelib",
+      "SPDXID": "SPDXRef-Package-887afd26d96b3e4f",
+      "versionInfo": "1.2.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/resolvelib@1.2.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:e0bf676926c5ecf4207ac945b875e4d1a8f140a1e6a5e63c40d18f16746f1367"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:d65b86fb5fc6c0ef4d24d536a08788cee53d6f2a47c366008f9a1b8f4b1d66d9"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: resolvelib@1.2.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "rich",
+      "SPDXID": "SPDXRef-Package-e2df7c3f413380b2",
+      "versionInfo": "14.2.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/rich@14.2.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:e0bf676926c5ecf4207ac945b875e4d1a8f140a1e6a5e63c40d18f16746f1367"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:d65b86fb5fc6c0ef4d24d536a08788cee53d6f2a47c366008f9a1b8f4b1d66d9"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: rich@14.2.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "setuptools",
+      "SPDXID": "SPDXRef-Package-11abe8430897a0fd",
+      "versionInfo": "70.3.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/setuptools@70.3.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:e0bf676926c5ecf4207ac945b875e4d1a8f140a1e6a5e63c40d18f16746f1367"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:d65b86fb5fc6c0ef4d24d536a08788cee53d6f2a47c366008f9a1b8f4b1d66d9"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: setuptools@70.3.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "tomli",
+      "SPDXID": "SPDXRef-Package-283c9e532c91cdb2",
+      "versionInfo": "2.4.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/tomli@2.4.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:e0bf676926c5ecf4207ac945b875e4d1a8f140a1e6a5e63c40d18f16746f1367"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:d65b86fb5fc6c0ef4d24d536a08788cee53d6f2a47c366008f9a1b8f4b1d66d9"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: tomli@2.4.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "tomli-w",
+      "SPDXID": "SPDXRef-Package-3b3fa36cc29fca90",
+      "versionInfo": "1.2.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/tomli-w@1.2.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:e0bf676926c5ecf4207ac945b875e4d1a8f140a1e6a5e63c40d18f16746f1367"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:d65b86fb5fc6c0ef4d24d536a08788cee53d6f2a47c366008f9a1b8f4b1d66d9"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: tomli-w@1.2.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "truststore",
+      "SPDXID": "SPDXRef-Package-4abdc12a465fd6cf",
+      "versionInfo": "0.10.4",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/truststore@0.10.4"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:e0bf676926c5ecf4207ac945b875e4d1a8f140a1e6a5e63c40d18f16746f1367"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:d65b86fb5fc6c0ef4d24d536a08788cee53d6f2a47c366008f9a1b8f4b1d66d9"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: truststore@0.10.4"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "tzdata",
+      "SPDXID": "SPDXRef-Package-b323a6a0c9cc6d59",
+      "versionInfo": "2026c-0+deb13u1+dhi0",
+      "supplier": "Organization: Docker Hardened Images \u003cdhi@docker.com\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: tzdata 2026c-0+deb13u1+dhi0",
+      "licenseConcluded": "LicenseRef-abb60753a4b5686d",
+      "licenseDeclared": "LicenseRef-abb60753a4b5686d",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/tzdata@2026c-0%2Bdeb13u1%2Bdhi0?arch=all\u0026distro=debian-13.7"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:92efdf566253e67c9e2ca092cb4cc544af69a3d7c2804254f58138ffb564626c"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:86b71e9b074aa3417b8c9ab76e0e85945bf006487a976661d070ee2777a05b6b"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: tzdata@2026c-0+deb13u1+dhi0"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "urllib3",
+      "SPDXID": "SPDXRef-Package-3b85174fb1e4cced",
+      "versionInfo": "2.7.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": true,
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "eae5fb2d18599a42337d6b13f8e38dda3521f286"
+      },
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/urllib3@2.7.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:e0bf676926c5ecf4207ac945b875e4d1a8f140a1e6a5e63c40d18f16746f1367"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:d65b86fb5fc6c0ef4d24d536a08788cee53d6f2a47c366008f9a1b8f4b1d66d9"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "urllib3",
+      "SPDXID": "SPDXRef-Package-e3399eb5021fcc23",
+      "versionInfo": "2.7.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/urllib3@2.7.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:e0bf676926c5ecf4207ac945b875e4d1a8f140a1e6a5e63c40d18f16746f1367"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:d65b86fb5fc6c0ef4d24d536a08788cee53d6f2a47c366008f9a1b8f4b1d66d9"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: urllib3@2.7.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: python-pkg"
+        }
+      ]
+    },
+    {
+      "name": "zlib1g",
+      "SPDXID": "SPDXRef-Package-e1a789b4453a1d4a",
+      "versionInfo": "1:1.3.dfsg+really1.3.1-1+dhi3",
+      "supplier": "Organization: Docker Hardened Images \u003cdhi@docker.com\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: zlib 1:1.3.dfsg+really1.3.1-1+dhi3",
+      "licenseConcluded": "Zlib",
+      "licenseDeclared": "Zlib",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/zlib1g@1.3.dfsg%2Breally1.3.1-1%2Bdhi3?arch=arm64\u0026distro=debian-13.7\u0026epoch=1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDiffID: sha256:92efdf566253e67c9e2ca092cb4cc544af69a3d7c2804254f58138ffb564626c"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "LayerDigest: sha256:86b71e9b074aa3417b8c9ab76e0e85945bf006487a976661d070ee2777a05b6b"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: zlib1g@1:1.3.dfsg+really1.3.1-1+dhi3"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: debian"
+        }
+      ]
+    },
+    {
+      "name": "debian",
+      "SPDXID": "SPDXRef-OperatingSystem-fd1873ba3ae91a40",
+      "versionInfo": "13.7",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "primaryPackagePurpose": "OPERATING-SYSTEM",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "Class: os-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.71.2",
+          "annotationDate": "2026-09-13T11:59:40Z",
+          "annotationType": "OTHER",
+          "comment": "Type: debian"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": "app/venv/lib/python3.13/site-packages/blinker-1.9.0.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-51ac68ead747d16",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ad4a8785c95184e661411968cb86ba3353ab46c7"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "app/venv/lib/python3.13/site-packages/certifi-2026.7.22.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-b26f6f309bafbba6",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c9632acf9c1257edf392a9f598bcd38d38d1c9aa"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "app/venv/lib/python3.13/site-packages/charset_normalizer-3.5.1.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-3d58b5fa89a0e522",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "515cd83d06a9587be81ede299682d6bbd85688e3"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "app/venv/lib/python3.13/site-packages/click-8.5.0.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-6c9a34afca80f3a8",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0c8e8d67f4d6a65219f0f7f4e430d296219aba6b"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "app/venv/lib/python3.13/site-packages/flask-3.0.3.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-9ac82d8d161e3c60",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "135517b0fb425294e53b2762dccd8f6bccdc1eaa"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "app/venv/lib/python3.13/site-packages/gunicorn-22.0.0.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-855b03fc923e0134",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3dfa4be9019553126c36057be2fd655c0b0009bf"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "app/venv/lib/python3.13/site-packages/idna-3.19.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-3479ab9698b2451e",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1549054272328931b545a0f9c4582eee3e28b1f8"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "app/venv/lib/python3.13/site-packages/iniconfig-2.3.0.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-c3376a2a01b42ec",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a9827e7d693395433e516d61f5ab2aa944a7c868"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "app/venv/lib/python3.13/site-packages/itsdangerous-2.2.0.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-dbc761da7d31d60b",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2721517496b1b39ca959c37af2bd94a16d2d968e"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "app/venv/lib/python3.13/site-packages/jinja2-3.1.6.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-239a550febe65963",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "01c4dcfd579104dd8f5b937e1511e9371b4367d3"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "app/venv/lib/python3.13/site-packages/markupsafe-3.0.3.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-7342df9b103ba9d8",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8ada20dd783a9961d87701f2cd25b0880f23993e"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "app/venv/lib/python3.13/site-packages/packaging-26.3.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-544749d29703afa9",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "bfab4082ca00cad0a8dee224dc23ea675d4abbb6"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "app/venv/lib/python3.13/site-packages/pip-26.2.1.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-21cb09f31edcf305",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "afc39b76bfbc92cbf461e2da996898962701163a"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "app/venv/lib/python3.13/site-packages/pluggy-1.6.0.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-e11a35dd07b22fe4",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2abf7c035cc157e3e320d4f3ad1e75797f074aaf"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "app/venv/lib/python3.13/site-packages/pytest-8.3.3.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-fb80c4af64803c36",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5dc4c242047dfbab6b811aed4028fa3fdf6039c3"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "app/venv/lib/python3.13/site-packages/requests-2.32.3.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-8d2f3a84d7bc56cd",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2932497ffb7a7e281a919fc9b881c459e56653e0"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "app/venv/lib/python3.13/site-packages/urllib3-2.7.0.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-395ba50e1074e3fd",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d20520d0598c114ced8d55ed14209a2a3bbee22c"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "app/venv/lib/python3.13/site-packages/werkzeug-3.1.8.dist-info/METADATA",
+      "SPDXID": "SPDXRef-File-be4c92008d9374d1",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "613b8b6cfbd18267696adb2b508e87d63fb1743f"
+        }
+      ],
+      "copyrightText": ""
+    }
+  ],
+  "hasExtractedLicensingInfos": [
+    {
+      "licenseId": "LicenseRef-12c6299793cdf486",
+      "extractedText": "This component is licensed under \"verbatim\"",
+      "name": "verbatim"
+    },
+    {
+      "licenseId": "LicenseRef-1340db71a4796d76",
+      "extractedText": "This component is licensed under \"BSD-3-clause-WIDE\"",
+      "name": "BSD-3-clause-WIDE"
+    },
+    {
+      "licenseId": "LicenseRef-1d467a358256effa",
+      "extractedText": "This component is licensed under \"Univ-Coimbra\"",
+      "name": "Univ-Coimbra"
+    },
+    {
+      "licenseId": "LicenseRef-3ba59e3587be17a6",
+      "extractedText": "This component is licensed under \"BSD-3-clause-Carnegie\"",
+      "name": "BSD-3-clause-Carnegie"
+    },
+    {
+      "licenseId": "LicenseRef-3cdc756d656e2ca",
+      "extractedText": "This component is licensed under \"PD\"",
+      "name": "PD"
+    },
+    {
+      "licenseId": "LicenseRef-423408a015e1a81c",
+      "extractedText": "This component is licensed under \"GPL-2.0-or-later WITH link-exception\"",
+      "name": "GPL-2.0-or-later WITH link-exception"
+    },
+    {
+      "licenseId": "LicenseRef-461e73656ab4d0",
+      "extractedText": "This component is licensed under \"MIT-X11\"",
+      "name": "MIT-X11"
+    },
+    {
+      "licenseId": "LicenseRef-5043101562052462",
+      "extractedText": "This component is licensed under \"permissive-nowarranty\"",
+      "name": "permissive-nowarranty"
+    },
+    {
+      "licenseId": "LicenseRef-74776a0cc7195ca2",
+      "extractedText": "This component is licensed under \"MIT-like-Lord\"",
+      "name": "MIT-like-Lord"
+    },
+    {
+      "licenseId": "LicenseRef-8a3f5fa45b1b1c21",
+      "extractedText": "This component is licensed under \"BSLA\"",
+      "name": "BSLA"
+    },
+    {
+      "licenseId": "LicenseRef-8bf7c6b30c74e012",
+      "extractedText": "This component is licensed under \"DEC\"",
+      "name": "DEC"
+    },
+    {
+      "licenseId": "LicenseRef-8ca8070d1298fe8b",
+      "extractedText": "This component is licensed under \"ISC-no-attribution\"",
+      "name": "ISC-no-attribution"
+    },
+    {
+      "licenseId": "LicenseRef-9333c215157468c2",
+      "extractedText": "This component is licensed under \"BSD-3-clause-Berkeley\"",
+      "name": "BSD-3-clause-Berkeley"
+    },
+    {
+      "licenseId": "LicenseRef-a43625359a0b6781",
+      "extractedText": "This component is licensed under \"BSD-3-clause-Oracle\"",
+      "name": "BSD-3-clause-Oracle"
+    },
+    {
+      "licenseId": "LicenseRef-a58a180f0b4def25",
+      "extractedText": "This component is licensed under \"TCL-like\"",
+      "name": "TCL-like"
+    },
+    {
+      "licenseId": "LicenseRef-abb60753a4b5686d",
+      "extractedText": "This component is licensed under \"public-domain\"",
+      "name": "public-domain"
+    },
+    {
+      "licenseId": "LicenseRef-aece73c3fcfabe34",
+      "extractedText": "This component is licensed under \"CORE-MATH\"",
+      "name": "CORE-MATH"
+    },
+    {
+      "licenseId": "LicenseRef-c182a7dc004f285e",
+      "extractedText": "This component is licensed under \"Carnegie\"",
+      "name": "Carnegie"
+    },
+    {
+      "licenseId": "LicenseRef-c6b2410a5c598c88",
+      "extractedText": "This component is licensed under \"LGPL-2.1-or-later WITH link-exception\"",
+      "name": "LGPL-2.1-or-later WITH link-exception"
+    },
+    {
+      "licenseId": "LicenseRef-d6f9a4de9ffae498",
+      "extractedText": "This component is licensed under \"PCRE\"",
+      "name": "PCRE"
+    },
+    {
+      "licenseId": "LicenseRef-d73b6710504f8977",
+      "extractedText": "This component is licensed under \"BSD-3-clause-fjord\"",
+      "name": "BSD-3-clause-fjord"
+    },
+    {
+      "licenseId": "LicenseRef-d83a6885a824fb4",
+      "extractedText": "This component is licensed under \"noderivs\"",
+      "name": "noderivs"
+    },
+    {
+      "licenseId": "LicenseRef-dc8726d2de821f66",
+      "extractedText": "This component is licensed under \"BSD-like-Spencer\"",
+      "name": "BSD-like-Spencer"
+    },
+    {
+      "licenseId": "LicenseRef-e31d45987d439b46",
+      "extractedText": "This component is licensed under \"PD-debian\"",
+      "name": "PD-debian"
+    },
+    {
+      "licenseId": "LicenseRef-e81f367b8432b910",
+      "extractedText": "This component is licensed under \"Inner-Net\"",
+      "name": "Inner-Net"
+    },
+    {
+      "licenseId": "LicenseRef-f903241c457972c7",
+      "extractedText": "This component is licensed under \"MIT-old\"",
+      "name": "MIT-old"
+    },
+    {
+      "licenseId": "LicenseRef-fb4f6ca6869659b",
+      "extractedText": "This component is licensed under \"IBM\"",
+      "name": "IBM"
+    },
+    {
+      "licenseId": "LicenseRef-fd21f3c328b9bed1",
+      "extractedText": "This component is licensed under \"none\"",
+      "name": "none"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-6d830225c3c93413",
+      "relatedSpdxElement": "SPDXRef-OperatingSystem-fd1873ba3ae91a40",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-6d830225c3c93413",
+      "relatedSpdxElement": "SPDXRef-Package-11abe8430897a0fd",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-6d830225c3c93413",
+      "relatedSpdxElement": "SPDXRef-Package-1d4f173ca7d9438a",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-6d830225c3c93413",
+      "relatedSpdxElement": "SPDXRef-Package-283c9e532c91cdb2",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-6d830225c3c93413",
+      "relatedSpdxElement": "SPDXRef-Package-2a72ee62de887153",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-6d830225c3c93413",
+      "relatedSpdxElement": "SPDXRef-Package-2af4e9e04fde7d9f",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-6d830225c3c93413",
+      "relatedSpdxElement": "SPDXRef-Package-2ce1cb46d4832b94",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-6d830225c3c93413",
+      "relatedSpdxElement": "SPDXRef-Package-364bde88c35a5d4",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-6d830225c3c93413",
+      "relatedSpdxElement": "SPDXRef-Package-39b7cca77ac31cfb",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-6d830225c3c93413",
+      "relatedSpdxElement": "SPDXRef-Package-3b3fa36cc29fca90",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-6d830225c3c93413",
+      "relatedSpdxElement": "SPDXRef-Package-3b85174fb1e4cced",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-6d830225c3c93413",
+      "relatedSpdxElement": "SPDXRef-Package-3fa888148084c4b7",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-6d830225c3c93413",
+      "relatedSpdxElement": "SPDXRef-Package-41461c39f33e6eb1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-6d830225c3c93413",
+      "relatedSpdxElement": "SPDXRef-Package-4abdc12a465fd6cf",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-6d830225c3c93413",
+      "relatedSpdxElement": "SPDXRef-Package-4bf274c36113f01d",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-6d830225c3c93413",
+      "relatedSpdxElement": "SPDXRef-Package-4f29b8f20f5dfb9f",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-6d830225c3c93413",
+      "relatedSpdxElement": "SPDXRef-Package-54a6a5347bd111ab",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-6d830225c3c93413",
+      "relatedSpdxElement": "SPDXRef-Package-5540a8591959dc01",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-6d830225c3c93413",
+      "relatedSpdxElement": "SPDXRef-Package-55e551905c1396cb",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-6d830225c3c93413",
+      "relatedSpdxElement": "SPDXRef-Package-62de55de4dcbcc19",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-6d830225c3c93413",
+      "relatedSpdxElement": "SPDXRef-Package-765160c95aa238bb",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-6d830225c3c93413",
+      "relatedSpdxElement": "SPDXRef-Package-887afd26d96b3e4f",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-6d830225c3c93413",
+      "relatedSpdxElement": "SPDXRef-Package-919802e851572856",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-6d830225c3c93413",
+      "relatedSpdxElement": "SPDXRef-Package-a9947c3732d2c445",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-6d830225c3c93413",
+      "relatedSpdxElement": "SPDXRef-Package-ad8dfd8487a516f8",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-6d830225c3c93413",
+      "relatedSpdxElement": "SPDXRef-Package-af72c81d0d54398b",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-6d830225c3c93413",
+      "relatedSpdxElement": "SPDXRef-Package-b7309a14b2382063",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-6d830225c3c93413",
+      "relatedSpdxElement": "SPDXRef-Package-caa1890ee4349dc5",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-6d830225c3c93413",
+      "relatedSpdxElement": "SPDXRef-Package-cc8e2887867840de",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-6d830225c3c93413",
+      "relatedSpdxElement": "SPDXRef-Package-dc6a03055315d649",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-6d830225c3c93413",
+      "relatedSpdxElement": "SPDXRef-Package-e1e0b060061fb194",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-6d830225c3c93413",
+      "relatedSpdxElement": "SPDXRef-Package-e2df7c3f413380b2",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-6d830225c3c93413",
+      "relatedSpdxElement": "SPDXRef-Package-e3399eb5021fcc23",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-6d830225c3c93413",
+      "relatedSpdxElement": "SPDXRef-Package-e71576e255d4295c",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-6d830225c3c93413",
+      "relatedSpdxElement": "SPDXRef-Package-ebaa0c259ba65e1e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-6d830225c3c93413",
+      "relatedSpdxElement": "SPDXRef-Package-eecd4569b1c9b8d7",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-6d830225c3c93413",
+      "relatedSpdxElement": "SPDXRef-Package-f1942e7ba73c3df1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-ContainerImage-6d830225c3c93413",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-fd1873ba3ae91a40",
+      "relatedSpdxElement": "SPDXRef-Package-131b784ca1143431",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-fd1873ba3ae91a40",
+      "relatedSpdxElement": "SPDXRef-Package-14afb06828950ed",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-fd1873ba3ae91a40",
+      "relatedSpdxElement": "SPDXRef-Package-160dd9868494dca8",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-fd1873ba3ae91a40",
+      "relatedSpdxElement": "SPDXRef-Package-2ee302eead314854",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-fd1873ba3ae91a40",
+      "relatedSpdxElement": "SPDXRef-Package-588d1bb5138ffbf7",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-fd1873ba3ae91a40",
+      "relatedSpdxElement": "SPDXRef-Package-807bcdc8cf7c5a19",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-fd1873ba3ae91a40",
+      "relatedSpdxElement": "SPDXRef-Package-b323a6a0c9cc6d59",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-fd1873ba3ae91a40",
+      "relatedSpdxElement": "SPDXRef-Package-c4853b4790f484a9",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-fd1873ba3ae91a40",
+      "relatedSpdxElement": "SPDXRef-Package-ee2556e681724376",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-138b464c7abcfd20",
+      "relatedSpdxElement": "SPDXRef-Package-49d81f437483b34b",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-138b464c7abcfd20",
+      "relatedSpdxElement": "SPDXRef-Package-ae77862315e6f68f",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-21769e7ecc764ee8",
+      "relatedSpdxElement": "SPDXRef-Package-6d44eb81d660fc4e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-21769e7ecc764ee8",
+      "relatedSpdxElement": "SPDXRef-Package-ded4de7d287dd249",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-21769e7ecc764ee8",
+      "relatedSpdxElement": "SPDXRef-Package-e1a789b4453a1d4a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2a72ee62de887153",
+      "relatedSpdxElement": "SPDXRef-File-239a550febe65963",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2abdce07f1871e0",
+      "relatedSpdxElement": "SPDXRef-Package-78fbb958b711788a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2abdce07f1871e0",
+      "relatedSpdxElement": "SPDXRef-Package-9cf670fb01e8f381",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2abdce07f1871e0",
+      "relatedSpdxElement": "SPDXRef-Package-a655c595ee51cac3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2abdce07f1871e0",
+      "relatedSpdxElement": "SPDXRef-Package-e1a789b4453a1d4a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2ce1cb46d4832b94",
+      "relatedSpdxElement": "SPDXRef-File-51ac68ead747d16",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2e8799feb2578ded",
+      "relatedSpdxElement": "SPDXRef-Package-a655c595ee51cac3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2e8799feb2578ded",
+      "relatedSpdxElement": "SPDXRef-Package-bef62a985dd939c1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2ffe3ec88a456102",
+      "relatedSpdxElement": "SPDXRef-Package-a655c595ee51cac3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-364bde88c35a5d4",
+      "relatedSpdxElement": "SPDXRef-File-b26f6f309bafbba6",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3b85174fb1e4cced",
+      "relatedSpdxElement": "SPDXRef-File-395ba50e1074e3fd",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3edd2a2098902a6d",
+      "relatedSpdxElement": "SPDXRef-Package-a655c595ee51cac3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3fa888148084c4b7",
+      "relatedSpdxElement": "SPDXRef-File-21cb09f31edcf305",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-4290e82501306439",
+      "relatedSpdxElement": "SPDXRef-Package-a655c595ee51cac3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-4c54dc4eb2084723",
+      "relatedSpdxElement": "SPDXRef-Package-a655c595ee51cac3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-54a6a5347bd111ab",
+      "relatedSpdxElement": "SPDXRef-File-e11a35dd07b22fe4",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-588d1bb5138ffbf7",
+      "relatedSpdxElement": "SPDXRef-Package-138b464c7abcfd20",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-588d1bb5138ffbf7",
+      "relatedSpdxElement": "SPDXRef-Package-f6dc988d8678fc5a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-62de55de4dcbcc19",
+      "relatedSpdxElement": "SPDXRef-File-3d58b5fa89a0e522",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-6cbcce83ca16fb85",
+      "relatedSpdxElement": "SPDXRef-Package-a655c595ee51cac3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-6d44eb81d660fc4e",
+      "relatedSpdxElement": "SPDXRef-Package-3f7aeca6ed65893",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-6d44eb81d660fc4e",
+      "relatedSpdxElement": "SPDXRef-Package-a655c595ee51cac3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-6d44eb81d660fc4e",
+      "relatedSpdxElement": "SPDXRef-Package-a6e1f90e7654fd8c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-6d44eb81d660fc4e",
+      "relatedSpdxElement": "SPDXRef-Package-e1a789b4453a1d4a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-765160c95aa238bb",
+      "relatedSpdxElement": "SPDXRef-File-dbc761da7d31d60b",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-78fbb958b711788a",
+      "relatedSpdxElement": "SPDXRef-Package-2abdce07f1871e0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-78fbb958b711788a",
+      "relatedSpdxElement": "SPDXRef-Package-a655c595ee51cac3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-879a03b787c194ee",
+      "relatedSpdxElement": "SPDXRef-Package-a655c595ee51cac3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-919802e851572856",
+      "relatedSpdxElement": "SPDXRef-File-544749d29703afa9",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-92b2b14f724959d6",
+      "relatedSpdxElement": "SPDXRef-Package-a655c595ee51cac3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-9cf670fb01e8f381",
+      "relatedSpdxElement": "SPDXRef-Package-a655c595ee51cac3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a655c595ee51cac3",
+      "relatedSpdxElement": "SPDXRef-Package-f78e12f376fd11fd",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a6b4c49bdfd65272",
+      "relatedSpdxElement": "SPDXRef-Package-a655c595ee51cac3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a6b4c49bdfd65272",
+      "relatedSpdxElement": "SPDXRef-Package-f3e06567a4236a3f",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a6e1f90e7654fd8c",
+      "relatedSpdxElement": "SPDXRef-Package-2e8799feb2578ded",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a6e1f90e7654fd8c",
+      "relatedSpdxElement": "SPDXRef-Package-2ffe3ec88a456102",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a6e1f90e7654fd8c",
+      "relatedSpdxElement": "SPDXRef-Package-3edd2a2098902a6d",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a6e1f90e7654fd8c",
+      "relatedSpdxElement": "SPDXRef-Package-4290e82501306439",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a6e1f90e7654fd8c",
+      "relatedSpdxElement": "SPDXRef-Package-4c54dc4eb2084723",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a6e1f90e7654fd8c",
+      "relatedSpdxElement": "SPDXRef-Package-6cbcce83ca16fb85",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a6e1f90e7654fd8c",
+      "relatedSpdxElement": "SPDXRef-Package-879a03b787c194ee",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a6e1f90e7654fd8c",
+      "relatedSpdxElement": "SPDXRef-Package-92b2b14f724959d6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a6e1f90e7654fd8c",
+      "relatedSpdxElement": "SPDXRef-Package-9cf670fb01e8f381",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a6e1f90e7654fd8c",
+      "relatedSpdxElement": "SPDXRef-Package-a655c595ee51cac3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a6e1f90e7654fd8c",
+      "relatedSpdxElement": "SPDXRef-Package-a6b4c49bdfd65272",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a6e1f90e7654fd8c",
+      "relatedSpdxElement": "SPDXRef-Package-bef62a985dd939c1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a6e1f90e7654fd8c",
+      "relatedSpdxElement": "SPDXRef-Package-ca14303bf00e45e3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a6e1f90e7654fd8c",
+      "relatedSpdxElement": "SPDXRef-Package-ded4de7d287dd249",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a6e1f90e7654fd8c",
+      "relatedSpdxElement": "SPDXRef-Package-e1a789b4453a1d4a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-a9947c3732d2c445",
+      "relatedSpdxElement": "SPDXRef-File-c3376a2a01b42ec",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ad8dfd8487a516f8",
+      "relatedSpdxElement": "SPDXRef-File-8d2f3a84d7bc56cd",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ae77862315e6f68f",
+      "relatedSpdxElement": "SPDXRef-Package-2abdce07f1871e0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ae77862315e6f68f",
+      "relatedSpdxElement": "SPDXRef-Package-a655c595ee51cac3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bc7f6a9f083174cd",
+      "relatedSpdxElement": "SPDXRef-Package-983d230e5ce648e5",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bc7f6a9f083174cd",
+      "relatedSpdxElement": "SPDXRef-Package-a655c595ee51cac3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bc7f6a9f083174cd",
+      "relatedSpdxElement": "SPDXRef-Package-f78e12f376fd11fd",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-bef62a985dd939c1",
+      "relatedSpdxElement": "SPDXRef-Package-a655c595ee51cac3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-c4853b4790f484a9",
+      "relatedSpdxElement": "SPDXRef-Package-21769e7ecc764ee8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-c4853b4790f484a9",
+      "relatedSpdxElement": "SPDXRef-Package-8501e869c4cce7f4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-c4853b4790f484a9",
+      "relatedSpdxElement": "SPDXRef-Package-a6e1f90e7654fd8c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-c4853b4790f484a9",
+      "relatedSpdxElement": "SPDXRef-Package-c701f715e027e7dc",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ca14303bf00e45e3",
+      "relatedSpdxElement": "SPDXRef-Package-2541942a1f3f96dc",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ca14303bf00e45e3",
+      "relatedSpdxElement": "SPDXRef-Package-a655c595ee51cac3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ca14303bf00e45e3",
+      "relatedSpdxElement": "SPDXRef-Package-bef62a985dd939c1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-cc8e2887867840de",
+      "relatedSpdxElement": "SPDXRef-File-7342df9b103ba9d8",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-dc6a03055315d649",
+      "relatedSpdxElement": "SPDXRef-File-855b03fc923e0134",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ded4de7d287dd249",
+      "relatedSpdxElement": "SPDXRef-Package-2abdce07f1871e0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ded4de7d287dd249",
+      "relatedSpdxElement": "SPDXRef-Package-a655c595ee51cac3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ded4de7d287dd249",
+      "relatedSpdxElement": "SPDXRef-Package-bc7f6a9f083174cd",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e1a789b4453a1d4a",
+      "relatedSpdxElement": "SPDXRef-Package-a655c595ee51cac3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e1e0b060061fb194",
+      "relatedSpdxElement": "SPDXRef-File-6c9a34afca80f3a8",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e71576e255d4295c",
+      "relatedSpdxElement": "SPDXRef-File-be4c92008d9374d1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ebaa0c259ba65e1e",
+      "relatedSpdxElement": "SPDXRef-File-fb80c4af64803c36",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-eecd4569b1c9b8d7",
+      "relatedSpdxElement": "SPDXRef-File-9ac82d8d161e3c60",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-f1942e7ba73c3df1",
+      "relatedSpdxElement": "SPDXRef-File-3479ab9698b2451e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-f3e06567a4236a3f",
+      "relatedSpdxElement": "SPDXRef-Package-a655c595ee51cac3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-f78e12f376fd11fd",
+      "relatedSpdxElement": "SPDXRef-Package-983d230e5ce648e5",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-f78e12f376fd11fd",
+      "relatedSpdxElement": "SPDXRef-Package-a655c595ee51cac3",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}
