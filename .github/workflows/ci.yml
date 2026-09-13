@@ -8,8 +8,8 @@ on:
       - main
 
 jobs:
-  build-test:
-    name: "Build and test"
+  dockerfile-lint:
+    name: "Dockerfile lint"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -17,11 +17,25 @@ jobs:
         uses: hadolint/hadolint-action@v3.1.0
         with:
           dockerfile: Dockerfile
+
+  build-test:
+    name: "Build and test"
+    needs: dockerfile-lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
       - run: make build && make test
+
+  security-scan:
+    name: "Security scan"
+    needs: build-test
+    uses: angelowu0/gh-sharedrepo-example/.github/workflows/security-scan.yml@main
+    with:
+      severity: CRITICAL,HIGH
 
   deploy-dev:
     name: "Deploy to dev"
-    needs: build-test
+    needs: security-scan
     if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/dev' }}
     uses: angelowu0/gh-sharedrepo-example/.github/workflows/develop.yml@main
     with:
@@ -31,7 +45,7 @@ jobs:
 
   deploy-qa:
     name: "Deploy to qa"
-    needs: [build-test, deploy-dev]
+    needs: [security-scan, deploy-dev]
     if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/qa' }}
     uses: angelowu0/gh-sharedrepo-example/.github/workflows/develop.yml@main
     with:
@@ -41,7 +55,7 @@ jobs:
 
   deploy-uat:
     name: "Deploy to uat"
-    needs: [build-test, deploy-qa]
+    needs: [security-scan, deploy-qa]
     if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/uat' }}
     uses: angelowu0/gh-sharedrepo-example/.github/workflows/develop.yml@main
     with:
@@ -51,7 +65,7 @@ jobs:
 
   deploy-preprod:
     name: "Deploy to preprod"
-    needs: [build-test, deploy-uat]
+    needs: [security-scan, deploy-uat]
     if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/preprod' }}
     uses: angelowu0/gh-sharedrepo-example/.github/workflows/develop.yml@main
     with:
@@ -61,7 +75,7 @@ jobs:
 
   deploy-prod:
     name: "Deploy to prod"
-    needs: [build-test, deploy-preprod]
+    needs: [security-scan, deploy-preprod]
     if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
     uses: angelowu0/gh-sharedrepo-example/.github/workflows/develop.yml@main
     with:
