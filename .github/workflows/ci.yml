@@ -48,6 +48,29 @@ jobs:
       - name: Run bandit
         run: bandit -r . -ll --exclude ./.venv
 
+  sbom:
+    name: "Generate SBOM"
+    needs: build-test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build image
+        run: make image
+      - name: Install trivy
+        run: |
+          sudo apt-get install -y wget apt-transport-https gnupg lsb-release
+          wget -qO - https://aquasecurity.github.io/trivy-repo/deb/public.key | gpg --dearmor | sudo tee /usr/share/keyrings/trivy.gpg > /dev/null
+          echo "deb [signed-by=/usr/share/keyrings/trivy.gpg] https://aquasecurity.github.io/trivy-repo/deb $(lsb_release -sc) main" | sudo tee -a /etc/apt/sources.list.d/trivy.list
+          sudo apt-get update
+          sudo apt-get install -y trivy
+      - name: Generate SBOM
+        run: trivy image --format spdx-json --output sbom.json app-service:latest
+      - name: Upload SBOM artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: sbom
+          path: sbom.json
+
   deploy-dev:
     name: "Deploy to dev"
     needs: [security-scan, python-sast]
