@@ -85,3 +85,5 @@ jobs:
     uses: angelowu0/gh-sharedrepo-example/.github/workflows/develop.yml@main
     with:
       environment: preprod
+    secrets:
+      aws-role-arn: ${{ secrets.AWS_ROLE_ARN }}
